@@ -11,7 +11,7 @@ void insertionsort(int vetor[15], int tamv){
         vetor[j] = aux;
       }
     }
-  printf("\niteracao %i: ", i);
+  printf("\niteracao %i: ", i+1);
   for(int i=0; i<15; i++)
     printf("%i, ", vetor[i]);
   }
